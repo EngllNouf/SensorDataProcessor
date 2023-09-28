@@ -16,7 +16,8 @@ public class SensorDataProcessor {
     
     // calculates average of sensor data
     private double average(double[] array) {
-        int i = 0;
+        //remove dublicate initialization int i = 0;
+        //shaden
         double val = 0;
         for (i = 0; i < array.length; i++) {
         val += array[i];
